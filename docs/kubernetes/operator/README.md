@@ -5,6 +5,7 @@ This guide describes how to:
 - Install the [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator/) using the [kube-stack Helm Chart](https://github.com/open-telemetry/opentelemetry-helm-charts/tree/main/charts/opentelemetry-kube-stack).
 - Use the EDOT Collector to send Kubernetes logs, metrics, and application traces to an Elasticsearch cluster.
 - Use the operator for applications [auto-instrumentation](https://opentelemetry.io/docs/kubernetes/operator/automatic/) in all supported languages.
+- Customize the configuration used for the installation.
 
 ## Table of Contents
 
@@ -15,6 +16,7 @@ This guide describes how to:
 - [Manual deployment of all components](#manual-deployment-of-all-components)
 - [Installation verification](#installation-verification)
 - [Instrumenting applications](#instrumenting-applications)
+- [Custom configuration](#custom-configuration)
 - [Limitations](#limitations)
 
 ## Prerequisites
@@ -172,6 +174,15 @@ metadata:
 where <LANGUAGE> is one of: `go` , `java`, `nodejs`, `python`, `dotnet`
 
 For detailed instructions and examples on how to instrument applications in Kubernetes using the OpenTelemetry Operator, refer to this guide (TBD-add link and document).
+
+## Custom configuration
+
+### Customizing configuration
+
+### Kubernetes cluster name setup
+
+
+
 
 ## Limitations
 
